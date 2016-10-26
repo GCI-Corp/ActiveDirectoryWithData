@@ -22,21 +22,21 @@
       },
       "defaultValue": "Standard_LRS"
     },
-    "location": {
-      "type": "string",
-      "allowedValues": [
-        "West Central US",
-        "Central US",
-        "West US",
-        "East US",
-        "West Europe",
-        "East Asia",
-        "Southeast Asia"
-      ],
-      "metadata": {
-        "description": "The region to deploy the resources into"
-      }
-    },
+  #  "location": {
+  #    "type": "string",
+  #    "allowedValues": [
+  #      "West Central US",
+  #      "Central US",
+  #      "West US",
+  #      "East US",
+  #      "West Europe",
+  #      "East Asia",
+  #      "Southeast Asia"
+  #    ],
+  #    "metadata": {
+  #      "description": "The region to deploy the resources into"
+  #    }
+  #  },
     "virtualNetworkName": {
       "type": "string",
       "metadata": {
@@ -194,7 +194,7 @@
       "metadata": {
         "description": "The location of resources such as templates and DSC modules that the script is dependent"
       },
-      "defaultValue": "https://raw.githubusercontent.com/GoateePFE/AzureRM/master/active-directory-new-domain-with-data/"
+      "defaultValue": "https://raw.githubusercontent.com/GCI-Corp/ActiveDirectoryWithData/master/CreateADDomainWithData.ps1"
     }
   },
   "variables": {
