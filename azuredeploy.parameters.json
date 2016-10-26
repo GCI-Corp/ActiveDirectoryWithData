@@ -9,7 +9,7 @@
       "value": "Standard_GRS"
     },
     "location": {
-      "value": "West US"
+      "value": "West Central US"
     },
     "adminUsername": {
       "value": "azureuser"
@@ -18,16 +18,16 @@
       "value": "GEN-PASSWORD"
     },
     "adVMSize": {
-      "value": "Standard_D1"
+      "value": "Standard_D1_v2"
     },
     "domainName": {
-      "value": "mydomain.local"
+      "value": "testems.lan"
     },
     "addnsName": {
       "value": "GEN-UNIQUE"
     },
     "assetLocation": {
-      "value": "https://raw.githubusercontent.com/GoateePFE/AzureRM/master/active-directory-new-domain-with-data/"
+      "value": "https://raw.githubusercontent.com/GCI-Corp/ActiveDirectoryWithData/master/"
     }
   }
 }
