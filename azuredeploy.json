@@ -76,7 +76,7 @@
       "metadata": {
         "description": "The IP address of the new AD VM"
       },
-      "defaultValue": "192.168.125.4"
+      "defaultValue": "192.168.124.4"
     },
     "publicIPAddressName": {
       "type": "string",

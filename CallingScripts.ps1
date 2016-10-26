@@ -22,11 +22,11 @@ Login-AzureRmAccount
 
 # Adjust the 'yournamehere' part of these three strings to
 # something unique for you. Leave the last two characters in each.
-$URI       = 'https://raw.githubusercontent.com/GoateePFE/AzureRM/master/active-directory-new-domain-with-data/azuredeploy.json'
-$Location  = 'east us'
-$rgname    = 'yournamehererg'
-$saname    = 'yournameheresa'     # Lowercase required
-$addnsName = 'yournameheread'     # Lowercase required
+$URI       = 'https://github.com/GCI-Corp/ActiveDirectoryWithData/azuredeploy.json'
+$Location  = 'west us'
+$rgname    = 'PSTestNew'
+$saname    = 'pstestsa'     # Lowercase required
+$addnsName = 'pstestad'     # Lowercase required
 
 # Check that the public dns $addnsName is available
 if (Test-AzureRmDnsAvailability -DomainNameLabel $addnsName -Location $Location)
@@ -38,7 +38,7 @@ New-AzureRmResourceGroup -Name $rgname -Location $Location
 # Parameters for the template and configuration
 $MyParams = @{
     newStorageAccountName = $saname
-    location              = 'East US'
+    location              = 'West US'
     domainName            = 'alpineskihouse.com'
     addnsName             = $addnsName
    }
