@@ -22,21 +22,7 @@
       },
       "defaultValue": "Standard_LRS"
     },
-  #  "location": {
-  #    "type": "string",
-  #    "allowedValues": [
-  #      "West Central US",
-  #      "Central US",
-  #      "West US",
-  #      "East US",
-  #      "West Europe",
-  #      "East Asia",
-  #      "Southeast Asia"
-  #    ],
-  #    "metadata": {
-  #      "description": "The region to deploy the resources into"
-  #    }
-  #  },
+
     "virtualNetworkName": {
       "type": "string",
       "metadata": {
