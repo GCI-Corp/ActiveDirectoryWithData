@@ -5,6 +5,7 @@
     "location": {
       "type": "string",
       "allowedValues": [
+        "West Central US",
         "Central US",
         "West US",
         "East US",

@@ -22,8 +22,8 @@ Login-AzureRmAccount
 
 # Adjust the 'yournamehere' part of these three strings to
 # something unique for you. Leave the last two characters in each.
-$URI       = 'https://github.com/GCI-Corp/ActiveDirectoryWithData/azuredeploy.json'
-$Location  = 'west us'
+$URI       = 'https://raw.githubusercontent.com/GCI-Corp/ActiveDirectoryWithData/master/azuredeploy.json'
+$Location  = 'West Central US'
 $rgname    = 'PSTestNew'
 $saname    = 'pstestsa'     # Lowercase required
 $addnsName = 'pstestad'     # Lowercase required
@@ -38,7 +38,7 @@ New-AzureRmResourceGroup -Name $rgname -Location $Location
 # Parameters for the template and configuration
 $MyParams = @{
     newStorageAccountName = $saname
-    location              = 'West US'
+    location              = 'West Central US'
     domainName            = 'alpineskihouse.com'
     addnsName             = $addnsName
    }
