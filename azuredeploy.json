@@ -45,7 +45,7 @@
       "metadata": {
         "description": "The address range of the new VNET in CIDR format"
       },
-      "defaultValue": "192.168.124.0/23"
+      "defaultValue": "10.0.0.0/16"
     },
     "adSubnetName": {
       "type": "string",
@@ -59,7 +59,7 @@
       "metadata": {
         "description": "The address range of the subnet created in the new VNET"
       },
-      "defaultValue": "192.168.124.0/24"
+      "defaultValue": "10.0.0.0/24"
     },
     "adNicName": {
       "type": "string",
@@ -73,7 +73,7 @@
       "metadata": {
         "description": "The IP address of the new AD VM"
       },
-      "defaultValue": "192.168.124.4"
+      "defaultValue": "10.0.0.4"
     },
     "publicIPAddressName": {
       "type": "string",
