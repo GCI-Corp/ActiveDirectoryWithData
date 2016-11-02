@@ -6,7 +6,6 @@
       "type": "string",
       "allowedValues": [
         "West Central US",
-        "Central US",
         "West US",
         "East US",
         "West Europe",
@@ -28,7 +27,7 @@
       "metadata": {
         "Description": "The address range of the new VNET in CIDR format"
       },
-      "defaultValue": "192.168.124.0/23"
+      "defaultValue": "10.0.0.0/16"
     },
     "subnetName": {
       "type": "string",
@@ -41,7 +40,7 @@
       "metadata": {
         "Description": "The address range of the subnet created in the new VNET"
       },
-      "defaultValue": "192.168.124.0/24"
+      "defaultValue": "10.0.0.0/24"
     },
     "DNSServerAddress": {
       "type": "array",

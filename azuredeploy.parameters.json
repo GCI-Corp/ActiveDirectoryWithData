@@ -21,7 +21,7 @@
       "value": "Standard_D1_v2"
     },
     "domainName": {
-      "value": "alpineskihouse.com"
+      "value": "mydomain.local"
     },
     "addnsName": {
       "value": "GEN-UNIQUE"

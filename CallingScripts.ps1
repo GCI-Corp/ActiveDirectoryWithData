@@ -23,8 +23,8 @@ Login-AzureRmAccount -SubscriptionName 'Visual Studio Enterprise'
 # Adjust the 'yournamehere' part of these three strings to
 # something unique for you. Leave the last two characters in each.
 $URI       = 'https://raw.githubusercontent.com/GCI-Corp/ActiveDirectoryWithData/master/azuredeploy.json'
-$Location  = 'West Central US'
-$rgname    = 'PSTestNew'
+$Location  = 'west central us'
+$rgname    = 'pstestnew'
 $saname    = 'pstestsa'     # Lowercase required
 $addnsName = 'pstestad'     # Lowercase required
 

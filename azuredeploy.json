@@ -38,7 +38,7 @@
       "metadata": {
         "description": "The name of the Virtual Network to Create"
       },
-      "defaultValue": "testVNET"
+      "defaultValue": "adVNET"
     },
     "virtualNetworkAddressRange": {
       "type": "string",
@@ -432,7 +432,7 @@
               "Items": {
                 "AdminPassword": "[parameters('adminPassword')]"
               },
-              "DataBlobUri": "[concat(parameters('assetLocation'),'CreateADDomainWithData.ps1')]"
+              "DataBlobUri": "[concat(parameters('assetLocation'),'CreateADDomainWithData.psd1')]"
             }
           }
         }
