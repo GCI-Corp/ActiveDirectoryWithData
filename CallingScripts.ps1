@@ -39,7 +39,7 @@ New-AzureRmResourceGroup -Name $rgname -Location $Location
 $MyParams = @{
     newStorageAccountName = $saname
     location              = 'West Central US'
-    domainName            = 'testems.lan'
+    domainName            = 'alpineskihouse.com'
     addnsName             = $addnsName
    }
 
@@ -48,7 +48,7 @@ $SplatParams = @{
     TemplateUri             = $URI 
     ResourceGroupName       = $rgname 
     TemplateParameterObject = $MyParams
-    Name                    = 'TestEMSDomain'
+    Name                    = 'AlpineSkiHouseForest'
    }
 
 # This takes ~30 minutes
