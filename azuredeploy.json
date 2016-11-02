@@ -432,7 +432,7 @@
               "Items": {
                 "AdminPassword": "[parameters('adminPassword')]"
               },
-              "DataBlobUri": "[concat(parameters('assetLocation'),'CreateADDomainWithData.psd1')]"
+              "DataBlobUri": "[concat(parameters('assetLocation'),'CreateADDomainWithData.ps1')]"
             }
           }
         }
