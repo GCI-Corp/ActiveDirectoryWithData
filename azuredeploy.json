@@ -164,7 +164,7 @@
       "metadata": {
         "description": "The name of the availability set that the AD VM is created in"
       },
-      "defaultValue": "adAvailabiltySet"
+      "defaultValue": "GlobalAS"
     },
     "domainName": {
       "type": "string",
